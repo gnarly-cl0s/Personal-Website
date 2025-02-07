@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/projects.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Todo
+  filter: "all"
+- name: Nube
+  filter: "cloud"
+- name: Seguridad
+  filter: "security"
+- name: Pasatiempo
+  filter: "hobby"
+
+# your projects
+projects:
+- name: AZ500 Study guide 
+  logo: /images/sections/projects/az500.png
+  role: Creator
+  timeline: "August 2020 - October 2020"
+  repo: https://github.com/gnarly-cl0s/AZ-500CheatSheet # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Material de estudio para la certificación AZ500 junto con código de demostración para implementaciones.
+  tags: ["security", "cloud"]
+
+- name: Offensive Cyber Deception
+  logo: /images/sections/projects/honeypot.png
+  role: User
+  timeline: "Jun 2021 - Present"
+  repo: https://github.com/cowrie/cowrie
+  #url: ""
+  summary: Cowrie es un honeypot SSH y Telnet de interacción media a alta diseñado para registrar ataques de fuerza bruta y la interacción del shell realizada por el atacante.
+  tags: ["hobby", "security", "purple-team"]
+
+- name: Información sobre amenazas
+  logo: /images/sections/projects/intel.jpg
+  role: Creator
+  timeline: "January 2025 - Present"
+  repo: https://github.com/gnarly-cl0s/Threat-Intel
+  #url: ""
+  summary: Repositorio personal donde alojo las configuraciones de Graylog y Grafana. Consulte la publicación de mi blog en caso de que esté interesado en configurar su propia plataforma Threat Intel.
+  tags: ["hobby", "security", "purple-team"]

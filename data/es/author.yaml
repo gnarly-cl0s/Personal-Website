@@ -1,0 +1,22 @@
+# some information about you
+name: "Carlos Marquez"
+nickname: "Carlos Marquez"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Soy"
+image: "images/author/carlos.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "carlos2394marquez@gmail.com"
+  github: gnarly-cl0s
+  linkedin: carlos-marquez-3b057390
+  reddit: 
+    icon: "fab fa-reddit"
+    text: DonCarlito23
+    url: "https://www.reddit.com/user/DonCarlito23"
+
+# some summary about what you do
+summary:
+  - Soy consultor de ciberseguridad
+  - Soy un probador de penetración
+  - Amo los servidor de computadoras
+  - Disfruto jugando y aprendiendo cómo funcionan cosas

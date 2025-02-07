@@ -1,0 +1,109 @@
+# section information
+section:
+  name: Acerca de
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Consultor Senior de Ciberseguridad
+# your company information
+company:
+  name: Coalfire
+  url: "https://coalfire.com/"
+
+
+# a summary about you
+summary: 'Durante el día, soy un probador de penetración dedicado, descubriendo vulnerabilidades y resolviendo desafíos de ciberseguridad. Después de horas, me relajo jugando o me sumerjo en la experimentación con nuevas tecnologías, implementándolas en el entorno de mi laboratorio doméstico para explorar y aprender. Cada momento intermedio está dedicado a ser un padre orgulloso, abrazando el equilibrio entre familia y carrera. Ya sea depurando código, pasando tiempo con la familia o buscando altas proporciones K/D, me mueve la curiosidad, la pasión y el amor por el crecimiento.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "Carlos2394Marquez@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/gnarly-cl0s"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/carlos-marquez-3b057390/"
+
+- name: Reddit 
+  icon: "fab fa-reddit"
+  text: DonCarlito23
+  url: "https://www.reddit.com/user/DonCarlito23"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified Kubernetes Administrator (CKA)
+  url: "https://www.credly.com/badges/356e0396-2a85-4b69-add3-e1ae64a31663/public_url"
+  badge: "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+
+- type: certification
+  name: OffSec Certified Professional (OSCP)
+  url: "https://www.credential.net/4621101c-91e5-4f89-bcbc-5017d8814bcc#acc.I9mk4XCU"
+  badge: "https://images.credly.com/size/340x340/images/ec81134d-e80b-4eb5-ae07-0eb8e1a60fcd/image.png"
+
+- type: certification
+  name: OffSec Wireless Professional (OSWP)
+  url: "https://www.credential.net/45a7dfd7-181d-4620-91ed-6d99a6ea055e#acc.8xhQmsru"
+  badge: "https://images.credly.com/size/340x340/images/8e66b341-8fa9-43ff-a611-76b72a65b38f/image.png"
+
+- type: certification
+  name: Azure Security Engineer (AZ-500)
+  url: "https://learn.microsoft.com/api/credentials/share/en-us/GnarlyCl0s-0147/41ADB2455526CE6A?sharingId=FD7295C450917BE8"
+  badge: "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/twitter_thumb_201604_azure-security-engineer-associate600x600.png"  
+
+- type: certification
+  name: Google Professional Cloud Security Engineer
+  url: "https://google.accredible.com/4f77285a-8396-43fb-93de-28a0998d9631#acc.Mtx3XvmP"
+  badge: "https://images.credly.com/images/4ea0ec5c-6258-4c26-9282-6ed233c0c7ac/image.png"  
+
+- type: soft-skill-indicator
+  name: Liderazgo
+  percentage: 100
+  color: "green"
+
+- type: soft-skill-indicator
+  name: Trabajo En Equipo
+  percentage: 100
+  color: "green"
+
+- type: soft-skill-indicator
+  name: Pentest De Aplicación Web
+  percentage: 95
+  color: blue
+
+- type: soft-skill-indicator
+  name: Pentest API
+  percentage: 95
+  color: blue
+
+- type: soft-skill-indicator
+  name: Pentest Interno
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Programación
+  percentage: 75
+  color: "#cc571d"
+
+- type: soft-skill-indicator
+  name: Pentest Inalámbrico
+  percentage: 60
+  color: "#cc1d97"
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75gn  
+#   color: "#00adb5"

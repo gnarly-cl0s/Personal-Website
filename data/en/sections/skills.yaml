@@ -1,0 +1,96 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Container
+  filter: "container"
+- name: Others
+  filter: "others"
+- name: Security
+  filter: "security"
+- name: Soc
+  filter: "soc"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Skilled in deploying and managing Kubernetes infrastructure using kubeadm or independently configuring components when needed. Proficient with common Kubernetes resource types and committed to following industry best practices, such as NIST 800-53 and CIS Benchmarks, to ensure security and compliance." 
+  categories: ["container"]
+  url: "https://kubernetes.io/"
+
+- name: Python Development
+  logo: /images/sections/skills/python.png
+  summary: "Currently my coding prefernce to automate a variety of security tasks, including fuzzing API endpoints to identify vulnerabilities and ensure robustness during security testing. My experience includes interacting with services that have unique interfaces, such as gRPC, by building custom scripts to streamline testing processes. By writing tailored Python tools, I can efficiently manipulate payloads, handle edge cases, and integrate testing workflows for enhanced coverage and accuracy."
+  categories: ["basic", "language"]
+  url: "https://www.python.org/"
+
+- name: PowerShell
+  logo: /images/sections/skills/powershell.png
+  summary: "Used in conjuction with Azure to assist with automating cloud deployments while studying for AZ500. It also proves handy when performing Active Directory enumeration and exploitation during internal penetration testing engagements."
+  categories: ["language"]
+  url: "https://learn.microsoft.com/en-us/powershell/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure and Oracle."
+  categories: ["others"]
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "I have experience containerizing applications and services using Docker, emphasizing secure and efficient deployments. My expertise includes scanning container images for vulnerabilities and implementing network policies to restrict container-to-container communication, thereby enhancing network isolation and supporting a defense-in-depth security strategy."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: Burp Suite Pro
+  logo: /images/sections/skills/burp.png
+  summary: "Main web application security testing tool. Used for manual testing scenarios and fuzz automation. If I am performing API testing, then I would use this along with Bruno to automate the fuzzing process which is an opensource IDE For Exploring and Testing APIs."
+  categories: ["security"]
+  url: "https://portswigger.net/burp"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using Ubuntu as my main operating system. I have developed a solid proficiency in bash/shell scripting, allowing me to automate tasks, streamline workflows, and manage system operations efficiently."
+  categories: ["others"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Additionally, I have worked with GitLab, broadening my expertise in version control and collaborative development."
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Network Vulnerability Scanning 
+  logo: /images/sections/skills/nmap.png
+  summary: "I have utilized both commercial scanners and open-source tools to support my efforts from the reconnaissance phase through the entire engagement. My approach adapts based on findings and the evolving scope of the assessment."
+  categories: ["basic", "security"]
+
+- name: CI/CD 
+  logo: /images/sections/skills/cicd.png
+  summary: "I maintain a Proxmox server at home, leveraging OpenTofu (a Terraform fork) to efficiently provision and decommission worker nodes for Kubernetes deployments. Currently, I am exploring the automation of Command and Control (C2) infrastructure deployment using CI/CD pipelines to gain hands-on experience and identify common pitfalls or security challenges associated with CI/CD workflows."
+  categories: ["others", "security"]
+
+- name: Offensive Cyber Deception 
+  logo: /images/sections/skills/honeypot.png
+  summary: "I utilize Cowrie as an SSH honeypot to intercept and log malicious activity. This allows me to analyze attacker behavior and tactics, providing daily insights into the latest threats and techniques used by adversaries."
+  categories: ["soc", "security"]
+
+- name: Security Operations Center (SOC) 
+  logo: /images/sections/skills/security-onion.png
+  summary: "I have some experience as a purple teamer / incident response analyst, utilizing Security Onion as a centralized platform to analyze network traffic. I try to identify Indicators of Compromise (IOCs) from hacking tools used during penetration testing exercises to simulate real-world attack scenarios. Additionally, I have deployed Graylog for centralized log ingestion, integrating logs from my pfSense firewall and other sources."
+  categories: ["soc", "security"]

@@ -1,0 +1,24 @@
+# Copyright Notice
+copyright: © 2025 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "Este tema está bajo licencia MIT. Por lo tanto, puede utilizarlo para usos no comerciales, comerciales o privados.
+Puede modificar o distribuir el tema sin requerir ningún permiso del autor del tema.
+Sin embargo, el autor del tema no ofrece ninguna garantía ni asume ninguna responsabilidad por cualquier problema con el tema."
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portafolio y blog personal de Carlos Marquez.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: Documentos
+  url: https://toha-guides.netlify.app/posts/
+
+# Specify OpenGraph Headers
+openGraph:
+  title: HomeLabHacker
+  type: website
+  description: Portafolio y blog personal de Carlos Márquez.
+  image: images/author/carlos.jpeg
+  url: https://homelabhacker.com

@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Job Experience 
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Coalfire
+    url: "https://coalfire.com/"
+    location: Greenwood Village, CO
+    logo: /images/sections/experiences/Coalfire.png
+    darkLogo: /images/sections/experiences/dark-CF.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Coalfire is a cybersecurity consulting firm serving clients in the cloud and technology, financial services, government, healthcare, and retail markets. Coalfire has expertise in the areas of cloud, cybersecurity, and compliance.
+  positions:
+  - designation: Senior Consultant / Penetration Tester
+    start: May 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Mentored junior penetration testers by providing hands-on guidance in vulnerability assessment, exploitation techniques, and report writing.
+    - Conducted training sessions on topics such as network penetration, web application security, and API testing to help upskill team members.
+    - Performed application and API penetration tests across public and private networks.
+    - Acted as a technical point of contact, assisting team members in troubleshooting complex vulnerabilities and testing challenges.
+    - Conducted penetration tests aligned with the latest industry standards, including PCI DSS, FedRAMP, and other compliance frameworks, ensuring adherence to best practices for security and risk management.
+
+- company:
+    name: Avaya
+    url: "https://www.avaya.com/en/"
+    location: Santa Clara, CA
+    logo: /images/sections/experiences/Avaya.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: An American multinational technology company that provides cloud communications and workstream collaboration services.
+  positions:
+  - designation: Security Engineer
+    start: July 2016
+    end: May 2021
+    responsibilities:
+    - Organize and plan assessments in collaboration with project teams, performing OWASP ASVS automated testing, fuzzing, and exploitation of identified vulnerabilities. Deliver high-quality executive summaries and PoCs to help teams reproduce findings and facilitate effective remediation.
+    - Establish engineering criteria for developers to help prevent common weaknesses in web applications (OWASP Top 10) and identify potential impacts.
+    - Project Lead for Avaya CVE Numbering Authority (CNA), responsible for assigning CVE IDs to vulnerabilities found in Avaya products.
+    - Maintain python code used to automate pulling third party advisories into a database for software bill of materials tracking.
+    - Cloud Audit and Security Assurance.

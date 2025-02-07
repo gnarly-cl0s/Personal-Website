@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Carrera
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Coalfire
+    url: "https://coalfire.com/"
+    location: Greenwood Village, CO
+    logo: /images/sections/experiences/Coalfire.png
+    # company overview
+    overview: Coalfire es una firma de consultoría de ciberseguridad que presta servicios a clientes en la nube y en los mercados de tecnología, servicios financieros, gobierno, atención médica y comercio minorista. Coalfire tiene experiencia en las áreas de nube, ciberseguridad y cumplimiento.
+  positions:
+  - designation: Consultor Senior / Probador de Penetración
+    start: May 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Asesoré a evaluadores de penetración junior brindándoles orientación práctica en evaluación de vulnerabilidades, técnicas de explotación y redacción de informes.
+    - Realicé sesiones de capacitación sobre temas como penetración de redes, seguridad de aplicaciones web y pruebas de API para ayudar a mejorar las habilidades de los miembros del equipo.
+    - Realicé pruebas de penetración de aplicaciones y API en redes públicas y privadas.
+    - Actuó como punto de contacto técnico, ayudando a los miembros del equipo a solucionar problemas de vulnerabilidades complejas y desafíos de prueba.
+    - Realicé pruebas de penetración alineadas con los últimos estándares de la industria, incluidos PCI DSS, FedRAMP y otros marcos de cumplimiento, garantizando el cumplimiento de las mejores prácticas de seguridad y gestión de riesgos.
+
+- company:
+    name: Avaya
+    url: "https://www.avaya.com/en/"
+    location: Santa Clara, CA
+    logo: /images/sections/experiences/Avaya.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Una empresa de tecnología multinacional estadounidense que ofrece comunicaciones en la nube y servicios de colaboración en flujo de trabajo.
+  positions:
+  - designation: Security Engineer
+    start: July 2016
+    end: May 2021
+    responsibilities:
+    - Organice y planifique evaluaciones en colaboración con los equipos de proyecto, realizando pruebas automatizadas de OWASP ASVS, fuzzing y explotación de vulnerabilidades identificadas. Entregue resúmenes ejecutivos y PoC de alta calidad para ayudar a los equipos a reproducir los hallazgos y facilitar una remediación efectiva.
+    - Establecer criterios de ingeniería para desarrolladores para ayudar a prevenir debilidades comunes en las aplicaciones web (OWASP Top 10) e identificar impactos potenciales.
+    - Líder de proyecto para Avaya CVE Numbering Authority (CNA), responsable de asignar ID de CVE a las vulnerabilidades encontradas en los productos de Avaya.
+    - Mantenga el código Python utilizado para automatizar la incorporación de avisos de terceros a una base de datos para el seguimiento de la lista de materiales del software.
+    - Auditoría de la nube y garantía de seguridad.

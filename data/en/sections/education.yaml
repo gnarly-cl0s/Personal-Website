@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Computer Information Security
+  icon: fas graduation-cap
+  timeframe: 2012-2016
+  institution:
+    name: Cal Poly Pomona
+    url: "#"
+    logo: /images/sections/education/cpp.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png

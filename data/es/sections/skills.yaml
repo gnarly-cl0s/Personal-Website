@@ -1,0 +1,79 @@
+# section information
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Hábil en implementar y administrar la infraestructura de Kubernetes usando kubeadm o configurando componentes de forma independiente cuando sea necesario. Competente con los tipos de recursos comunes de Kubernetes y comprometido a seguir las mejores prácticas de la industria, como NIST 800-53 y CIS Benchmarks, para garantizar la seguridad y el cumplimiento."
+  categories: ["container"]
+  url: "https://kubernetes.io/"
+
+- name: Python Programación
+  logo: /images/sections/skills/python.png
+  summary: "Actualmente, mi preferencia en codificación es automatizar una variedad de tareas de seguridad, incluida la eliminación de puntos finales de API para identificar vulnerabilidades y garantizar la solidez durante las pruebas de seguridad. Mi experiencia incluye interactuar con servicios que tienen interfaces únicas, como gRPC, mediante la creación de scripts personalizados para agilizar los procesos de prueba. Al escribir herramientas Python personalizadas, puedo manipular cargas útiles de manera eficiente, manejar casos extremos e integrar flujos de trabajo de prueba para mejorar la cobertura y la precisión."
+  categories: ["basic", "language"]
+  url: "https://www.python.org/"
+
+- name: PowerShell
+  logo: /images/sections/skills/powershell.png
+  summary: "Se utiliza junto con Azure para ayudar a automatizar las implementaciones en la nube mientras se estudia para AZ500. También resulta útil al realizar la enumeración y explotación de Active Directory durante las pruebas de penetración internas."
+  categories: ["language"]
+  url: "https://learn.microsoft.com/en-us/powershell/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Trabajó con la mayoría de las principales nubes como GCP, AWS, Azure y Oracle."
+  categories: ["others"]
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Tengo experiencia en contener aplicaciones y servicios usando Docker, enfatizando implementaciones seguras y eficientes. Mi experiencia incluye escanear imágenes de contenedores en busca de vulnerabilidades e implementar políticas de red para restringir la comunicación entre contenedores, mejorando así el aislamiento de la red y respaldando una estrategia de seguridad de defensa en profundidad."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: Burp Suite Pro
+  logo: /images/sections/skills/burp.png
+  summary: "Principal herramienta de prueba de seguridad de aplicaciones web. Se utiliza para escenarios de pruebas manuales y automatización fuzz. Si estoy realizando pruebas de API, usaría esto junto con Bruno para automatizar el proceso de fuzzing, que es un IDE de código abierto para explorar y probar API."
+  categories: ["security"]
+  url: "https://portswigger.net/burp"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Usando Ubuntu como mi sistema operativo principal. He desarrollado un sólido dominio de scripts bash/shell, lo que me permite automatizar tareas, optimizar los flujos de trabajo y gestionar las operaciones del sistema de manera eficiente."
+  categories: ["others"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experimentado con desarrollo basado en git. Principalmente, usa Github. Además, tener experiencia trabajando con GitLab."
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Escaneo De Vulnerabilidades De Red
+  logo: /images/sections/skills/nmap.png
+  summary: "He utilizado escáneres comerciales y herramientas de código abierto para respaldar mis esfuerzos desde la fase de reconocimiento durante todo el compromiso. Mi enfoque se adapta según los hallazgos y el alcance cambiante de la evaluación."
+  categories: ["basic", "security"]
+
+- name: CI/CD 
+  logo: /images/sections/skills/cicd.png
+  summary: "Mantengo un servidor Proxmox en casa, aprovechando OpenTofu (una bifurcación de Terraform) para aprovisionar y desmantelar de manera eficiente nodos trabajadores para implementaciones de Kubernetes. Actualmente, estoy explorando la automatización de la implementación de la infraestructura de comando y control (C2) utilizando canalizaciones de CI/CD para obtener experiencia práctica e identificar errores comunes o desafíos de seguridad asociados con los flujos de trabajo de CI/CD."
+  categories: ["other", "security"]
+
+- name: Offensive Cyber Deception 
+  logo: /images/sections/skills/honeypot.png
+  summary: "Utilice cowrie como honeypot SSH para interceptar y registrar actividades maliciosas. Esto me permite analizar el comportamiento y las tácticas de los atacantes, proporcionando información sobre las últimas amenazas y técnicas utilizadas por los adversarios."
+  categories: ["basic", "security"]
+
+- name: Security Operations Center (SOC) 
+  logo: /images/sections/skills/security-onion.png
+  summary: "Tengo cierta experiencia como analista de respuesta a incidentes/equipo morado, utilizando Security Onion como plataforma centralizada para analizar el tráfico de red. Intento identificar indicadores de compromiso (IOC) a partir de herramientas de piratería utilizadas durante los ejercicios de pruebas de penetración para simular escenarios de ataque del mundo real. Además, implementé Graylog para la ingesta de registros centralizada, integrando registros de mi firewall pfSense y alertas Suricata WAF. Utilizando reglas de canalización, enriquezco los datos de registro con detalles de geolocalización de IP de origen malicioso, lo que permite un análisis más profundo. Aprovechando Grafana, creo métricas visuales a partir de estos datos enriquecidos, proporcionando una visión holística de las amenazas, tendencias y actividad de la red actuales. Esta configuración mejora mi capacidad para monitorear, detectar y analizar posibles incidentes de seguridad en tiempo real."
+  categories: ["soc", "security"]
