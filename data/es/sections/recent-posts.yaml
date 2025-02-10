@@ -3,7 +3,7 @@ section:
   name: Publicaciones Recientes
   id: recent-posts
   enable: true
-  weight: 6
+  weight: 1
   showOnNavbar: true
   template: sections/recent-posts.html
   # Can optionally hide the title in sections

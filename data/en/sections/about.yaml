@@ -3,7 +3,7 @@ section:
   name: About
   id: about
   enable: true
-  weight: 1
+  weight: 3
   showOnNavbar: true
   template: sections/about.html
 
@@ -24,10 +24,6 @@ summary: 'During the day, I’m a dedicated penetration tester, uncovering vulne
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "Carlos2394Marquez@gmail.com"
-
 - name: Github
   icon: "fab fa-github"
   url: "https://github.com/gnarly-cl0s"

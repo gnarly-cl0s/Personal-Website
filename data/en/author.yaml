@@ -6,7 +6,6 @@ greeting: "I am"
 image: "images/author/carlos.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "carlos2394marquez@gmail.com"
   github: gnarly-cl0s
   linkedin: carlos-marquez-3b057390
   reddit: 
